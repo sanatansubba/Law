@@ -1,0 +1,34 @@
+.portfolio-overview{
+    padding: 3rem 0;
+}
+.portfolio-overview  h2{
+    color: var(--black-color);
+    font-weight: 700;
+    position: relative;
+}
+
+.portfolio-overview h2::after {
+    content: "";
+    position: absolute;
+    left: 3%;
+    width: 60px;
+    height: 4px;
+    background: var(--yellow-color);
+    bottom: -15px;
+    margin-left: -30px;
+}
+
+.portfolio-items h2{
+    position: relative;
+}
+.portfolio-items h2:after {
+    content: "";
+    position: absolute;
+    left: 31px;
+    width: 60px;
+    height: 4px;
+    background: var(--yellow-color);
+    bottom: 21px;
+    margin-left: -30px;
+}
+

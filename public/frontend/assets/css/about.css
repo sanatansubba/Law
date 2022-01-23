@@ -1,0 +1,155 @@
+/*ABOUT US*/
+.about-us-main {
+    padding: 3rem 0;
+}
+
+.about-us-main-right h2 {
+    color: var(--black-color);
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.about-us-main-right h2 span {
+    color: var(--yellow-color);
+}
+
+.about-us-main-right p {
+    color: var(--font-color);
+    padding: 20px 0;
+}
+
+.about-us-main-right ul li {
+    line-height: 35px;
+    font-size: 20px;
+    color: var(--black-color);
+    font-family: var(--secondary-font);
+    position: relative;
+    padding-left: 20px;
+}
+
+.about-us-main-right ul li::before {
+    position: absolute;
+    content: "\f00c";
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    font-family: "FontAwesome";
+    color: var(--yellow-color);
+}
+
+
+.our-vision,
+.our-mission {
+    border: 1px solid var(--yellow-color);
+    padding: 1rem;
+    box-shadow: 0px 2px 7px rgb(22 30 106 / 30%);
+    background: var(--white-color);
+}
+
+.our-vision ul li,
+.our-mission ul li {
+    display: flex;
+    line-height: 35px;
+}
+
+.our-vision ul li i,
+.our-mission ul li i {
+    color: var(--yellow-color);
+}
+
+.our-vision h5,
+.our-mission h5 {
+    color: var(--black-color);
+    font-weight: bold;
+    position: relative;
+}
+
+.our-vision h5:after,
+.our-mission h5:after {
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: 35px;
+    height: 3px;
+    width: 57px;
+    border-radius: 3px;
+    z-index: 2;
+    background-color: var(--yellow-color);
+    margin-left: -25px;
+}
+
+.vision {
+    padding: 3rem 0;
+    background: var(--section-color);
+    color: var(--black-color);
+}
+
+.our-vision h5,
+.our-mission h5 {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.our-teams {
+    padding: 3rem 0 0rem;
+}
+
+.our-teams h2{
+    color: var(--black-color);
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 3rem;
+    font-size: 40px;
+}
+.our-teams h2:after {
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: 55px;
+    height: 5px;
+    width: 57px;
+    border-radius: 3px;
+    z-index: 2;
+    background-color: var(--yellow-color);
+    margin-left: -25px;
+}
+
+.our-teams .teams-cards {
+    text-align: center;
+    padding: 30px 15px;
+    box-shadow: 0px 2px 7px rgb(22 30 106 / 30%);
+    margin-bottom: 3rem;
+}
+
+.our-teams .teams-cards .teams-image img{
+    box-shadow: 0px 2px 7px rgb(22 30 106 / 30%);
+    border-radius: 50%;
+}
+.our-teams .teams-cards h4{
+    color: var(--black-color);
+    font-size: 22px;
+    padding: 15px 0;
+    font-weight: 700;
+}
+
+.our-teams .teams-cards h6{
+    color: var(--black-color);
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+.our-teams .teams-cards p{
+    color: var(--black-color);
+    font-size: 14px;
+    line-height: 25px;
+}
+.our-teams .teams-cards:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: -10px;
+}
+.our-teams .teams-cards:hover .teams-image img{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+/*ABOUT US ENDS*/

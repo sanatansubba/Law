@@ -1,0 +1,177 @@
+.contact-page .contact-info-left{
+    padding: 3rem 0;
+}
+.contact-info-left h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--black-color);
+    position: relative;
+}
+.contact-info-left h2::before {
+    content: "";
+    position: absolute;
+    left: 6%;
+    width: 60px;
+    height: 4px;
+    background: var(--yellow-color);
+    bottom: -7px;
+    margin-left: -30px;
+}
+.contact-info-left p{
+    color: var(--black-color);
+    font-size: 14px;
+    padding: 10px 0;
+}
+.contact-info-left form input{
+    margin-bottom: 15px;
+}
+.contact-info-left form input:focus,.contact-info-left textarea:focus{
+    outline: none;
+    border: 1px solid var(--yellow-color);
+}
+.contact-info-left a{
+    margin-top: 15px;
+    color: var(--white-color);
+}
+.contact-info-left a:hover{
+    color: var(--white-color);
+}
+
+.contact-info-right{
+    position: relative;
+    background: var(--black-color);
+    margin: 3rem 0;
+    padding: 30px 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+.yellow-box-contact{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    transform: translate(-50%,-50%);
+    width: 150px;
+    height: 974px;
+    background: var(--yellow-color);
+    display: block;
+    z-index: -1;
+}
+.contact-info-right h6{
+    color: var(--white-color);
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.contact-info-right .contact-image-div img{
+    width: 64px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.team-bg {
+	background-color: #f8f9fa;
+	overflow: hidden;
+}
+.team .section-title {
+	padding-bottom: 40px;
+}
+.team .section-title .main-team-subheading {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0;
+	line-height: 1px;
+	margin: 0 0 5px 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #aaaaaa;
+}
+.team .section-title .main-team-subheading::after {
+	content: "";
+	width: 120px;
+	height: 1px;
+	display: inline-block;
+	background: #556270;
+	margin: 4px 10px;
+}
+.team .main-team-heading {
+	margin: 0;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--black-color);
+}
+.team .member {
+	position: relative;
+	box-shadow: 0px 2px 15px rgba(85, 98, 112, 0.08);
+	padding: 30px;
+	border-radius: 4px;
+	background: #fff;
+}
+.team .member .pic {
+	overflow: hidden;
+	width: 140px;
+	border-radius: 4px;
+}
+.team .member .pic img {
+	transition: ease-in-out 0.3s;
+}
+.team .member:hover img {
+transform: scale(1.1);
+}
+.team .member .member-info {
+	padding-left: 30px;
+}
+.team .member .member-heading {
+	font-weight: 700;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: var(--black-color);
+	line-height: 1.2;
+}
+.team .member span {
+	display: block;
+	font-size: 15px;
+	padding-bottom: 10px;
+	position: relative;
+	font-weight: 500;
+}
+.team .member span::after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 1px;
+	background: #dee2e6;
+	bottom: 0;
+	left: 0;
+}
+.team .member .member-para {
+	margin: 10px 0 0 0;
+	font-size: 14px;
+}
+.team .member .social {
+	margin-top: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.team .member .social a {
+	transition: ease-in-out 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	width: 32px;
+	height: 32px;
+	background: #8795a4;
+}
+.team .member .social a + a {
+margin-left: 8px;
+}
+.team .member .social a:hover {
+	background: var(--yellow-color);
+}
+.team .member .social a .team-icon {
+	color: #fff;
+	font-size: 16px;
+	margin: 0 2px;
+}

@@ -1,0 +1,64 @@
+.service-cards{
+    padding: 3rem 0;
+}
+.service-cards h2{
+    position: relative;  
+    color: var(--black-color); 
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.service-cards p{
+    color: var(--font-color);
+    padding-bottom: 1.5rem;
+}
+.service-cards h2:after {
+    content: '';
+    position: absolute;
+    left: 25px;
+    top: 50px;
+    height: 5px;
+    width: 70px;
+    border-radius: 3px;
+    z-index: 2;
+    background-color: var(--yellow-color);
+    margin-left: -25px;
+}
+.service-cards .service-inner-cards{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px 30px 35px;
+}
+.service-cards .service-inner-cards .service-image{
+    text-align: center;
+}
+.service-cards .service-inner-cards .service-image img{
+    width: 100px;
+    height: 100px;
+}
+.service-cards .service-inner-cards h5{
+    color: var(--black-color);
+    font-weight: 700;
+    padding: 15px 0;
+}
+.service-cards .service-inner-cards ul.service-list{
+    color: var(--font-color);
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.service-cards .service-inner-cards ul.service-list li{
+    position: relative;
+    padding-left: 20px;
+}
+
+.service-cards .service-inner-cards ul.service-list li::before{
+    position: absolute;
+    content: "-";
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+.service-cards .service-inner-cards a{
+    color: var(--white-color);
+}
+

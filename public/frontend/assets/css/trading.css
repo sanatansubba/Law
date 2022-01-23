@@ -1,0 +1,64 @@
+.trading-content {
+    margin: 1.5rem 0;
+}
+
+.trading-main-content h3 {
+    font-weight: 700;
+    color: var(--black-color);
+    margin-bottom: .5rem;
+}
+
+.trading-main-content h3,
+.trading-main-content p {
+    line-height: 37px;
+}
+
+.bibun {
+    margin: 1rem 0;
+    padding: 2rem 0;
+}
+
+.bibun h3, .malaysia h3 {
+    margin-bottom: 15px;
+}
+
+.bibun p {
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.japan {
+    background: var(--black-color);
+    margin-top: -2rem;
+}
+
+.srilanka, .singapore {
+    border-bottom: 1px solid white;
+    padding: 2rem 0;
+}
+
+.australia {
+    margin: 2rem 0;
+}
+
+.india h3,
+.india p,
+.pakistan h3,
+.pakistan p, .malaysia h3, .malaysia p {
+    color: white;
+    line-height: 34px;
+}
+.india h3, .pakistan h3{
+    margin-bottom: 15px;
+}
+.arrest-img img{
+    height: 350px;
+}
+.nepal-img img{
+    height: 345px;
+     width: 100%;
+}
+.nepal-images img{
+    height: 250px;
+    width: 100%;
+}
